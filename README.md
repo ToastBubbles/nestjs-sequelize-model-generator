@@ -1,12 +1,39 @@
-# nestjs-sequelize-model-generator
+# Model Generator
 
-Install Dependencies...
-npm i
+This is Node application is designed to quickly set up basic database models for a Nest.js application that is using sequelize.
 
-Run...
-node index
+## Authors
 
-Enter name of your desired model...
-"test"
+- [@ToastBubbles](https://www.github.com/ToastBubbles)
 
-Check output folder for generated files...
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ToastBubbles/nestjs-sequelize-model-generator
+```
+
+Go to the project directory
+
+```bash
+  cd nestjs-sequelize-model-generator
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Build the project
+
+```bash
+  node index
+```
+
+Once prompted, type in the name of your model in camelCase, then when prompted again, enter the model name in plural camelCase.
+
+Once the program is complete, your files will be waiting in the `output` folder.
+
+Make sure to read the notes in the terminal, you may also have to manually change the import statements depending on your project structure.

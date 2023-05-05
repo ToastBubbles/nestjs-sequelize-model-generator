@@ -1,0 +1,1 @@
+# nestjs-sequelize-model-generator

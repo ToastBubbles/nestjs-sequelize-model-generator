@@ -102,9 +102,9 @@ async function genModule(name, plural) {
     console.log("Generating Module...");
     let content = `
     import { Module } from '@nestjs/common';
-    import { ${capitolizeFirst(plural)}Controller } from '../controllers/${plural}.controller';
-    import { ${capitolizeFirst(plural)}Service } from '../services/${plural}.service';
-    import { ${plural}Providers } from '../providers/${plural}.providers';
+    import { ${capitolizeFirst(plural)}Controller } from '../controllers/${name}.controller';
+    import { ${capitolizeFirst(plural)}Service } from '../services/${name}.service';
+    import { ${plural}Providers } from '../providers/${name}.providers';
     import { DatabaseModule } from './database.module';
 
     @Module({

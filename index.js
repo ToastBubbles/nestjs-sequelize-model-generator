@@ -4,30 +4,24 @@ const readline = require('readline').createInterface({
     output: process.stdout
 });
 
-
 readline.question('Please enter the name of your model in camelCase...', name => {
 
     readline.question('Please enter the plural name of your model in camelCase...', plural => {
 
         console.log(`Generating files for ${name}...`);
         readline.close();
-        capitolizeFirst(plural)
         genEntity(name, plural)
     })
 
 });
 
-
 async function save(content, fileName) {
-    // let data = JSON.stringify(cachedInventory);
     try {
         await fs.writeFileSync(`output/${fileName}`, content);
     } catch (e) {
         console.log(e);
     }
 }
-
-
 
 async function genEntity(name, plural) {
     console.log("Generating Entity...");
@@ -129,7 +123,6 @@ function finalThoughts(name) {
     console.log("Done!");
     console.log(`Don't forget to add ${name} to app.module and database.providers! Also to customize your columns!`);
 }
-
 
 function capitolizeFirst(str) {
     return str.charAt(0).toUpperCase() + str.slice(1)

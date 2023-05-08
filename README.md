@@ -12,7 +12,7 @@ This is a Node application is designed to quickly set up basic database models f
 Clone the project
 
 ```bash
-  git clone https://github.com/ToastBubbles/nestjs-sequelize-model-generator
+  git clone https://github.com/ToastBubbles/sequelize-typescript-model-generator
 ```
 
 Go to the project directory

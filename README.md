@@ -1,7 +1,7 @@
 # Model Generator
 [![Generic badge](https://img.shields.io/badge/Generator%20for-%20NestJS-9F7AEA.svg)]([https://www.prisma.io](https://docs.nestjs.com/recipes/sql-sequelize))
 
-This is a Node application is designed to quickly set up basic database models for a Nest.js application that is using sequelize.
+This is a Node application is designed to quickly set up basic database models for a program built on [sequelize-typescript](https://github.com/sequelize/sequelize-typescript).
 
 ## Authors
 

@@ -18,7 +18,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd nestjs-sequelize-model-generator
+  cd sequelize-typescript-model-generator
 ```
 
 Install dependencies
